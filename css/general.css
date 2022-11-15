@@ -64,6 +64,8 @@ html {
   font-size: 62.5%;
 
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -72,6 +74,7 @@ body {
   font-weight: 400;
   color: #555;
 
+  /* For navigation */
   /* Only works if there is nothing absolutely postitioned 
   in relation to the body */
   overflow-x: hidden;
